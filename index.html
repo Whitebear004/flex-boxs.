@@ -21,26 +21,54 @@
             </aside>
             <div class="main-wrapper">
             <header>
-               <h1>Dashboard da @say.valente</h1>
+               <h1>Literary Portal Dashboard</h1>
             </header>
             <main>
               <div class="card-top">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div onclick="const a= document.getElementById('ilia'); a.paused ? a.play() : a.pause()">
+                  <audio id="ilia" src="./assets/audio/ilia.mp3"></audio>
+                  <img src="./assets/deshboard/3.png" alt="ილია ჭავჭავაძე">
+                </div>
+                <div onclick="const a= document.getElementById('vaja'); a.paused ? a.play() : a.pause()">
+                   <audio id="vaja" src="./assets/audio/vaja.mp3"></audio>
+                  <img src="./assets/deshboard/ვაჟა.png" alt="ლუკა რაზიკაშვილი">
+                </div>
+                <div  onclick="const a= document.getElementById('akaki'); a.paused ? a.play() : a.pause()">
+                   <audio id="akaki" src="./assets/audio/akaki.mp3"></audio>
+                  <img src="./assets/deshboard/აკაკი.png" alt="აკაკი">
+                </div>
               </div>
               <div class="mid-section"></div>
               <div class="card-bottom">
-                <div></div>
-                <div></div>
+                <div onclick="const a= document.getElementById('terenti'); a.paused ? a.play() : a.pause()" >
+                  <audio id="terenti" src="./assets/audio/terenti (mp3cut.net) (2).mp3"></audio>
+                  <img src="./assets/deshboard/ტერენტი.png" alt="terenti graneli">
+                   <i>ჩემი გული და სისხლი - ეს “Memento mori”-ა.</i>
+                  </div>
+                <div  onclick="const a= document.getElementById('terenti2'); a.paused ? a.play() : a.pause()" >
+                  <audio id="terenti2" src="./assets/audio/terenti2.mp3"></audio>
+                   <img src="./assets/deshboard/7777terent.png" alt="terenti graneli">
+                   <i>დღეს სამია ივნისის, მინდა იყოს ცამეტი,
+                      ჩემს გარშემო ციხეა - მწუხარების სავანე.</i>
+                </div>
               </div>
 
               <div class="content-right">
-                 <div class="blue"></div>
-                 <div class="orange"></div>
-                 <div class="green"></div>
-                 <div class="box"></div>
+                 <div class="georgia"></div> 
+                 <div class="white"></div>
+                 <div class="black"></div>
+                 <div class="box" onclick="const a = document.getElementById('gala'); a.paused ? a.play() : a.pause()">
+                   <audio id="gala" src="./assets/audio/tabidze.mp3"></audio>
+                   <img src="./assets/deshboard/6.png" alt="">
+                 </div>
               </div>
+
+            <div class="icon2 ilia"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
+            <div class="icon2 vaja"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
+            <div class="icon2 akaki"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
+            <div class="icon2 ter1"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
+            <div class="icon2 ter2"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
+            <div class="icon2 gala"><img src="./assets/equalizer.png" alt="" width="30px" height="30px"></div>
             </main>
             </div>
         </div>
